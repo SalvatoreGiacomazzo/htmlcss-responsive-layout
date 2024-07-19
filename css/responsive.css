@@ -1,28 +1,57 @@
 /*Tablet section*/ 
 @media screen and (min-width:767px)
  {
- header{text-align: left; 
-}   
+ header{text-align: left; }   
 header h1{margin-left:5px;}
 
-.disappear{visibility: visible;}
- }
+.disappear{display: inline;}
+ 
 
- ul{display:flex;
-}
+ ul{display:flex;}
+
+.social{padding: 15px 35px;
+border-radius: 25px;}
+
+.presentation img{height:300px;
+    width:auto;
+float:left;}
+    
+
+ }
 
 
 /*Desktop section*/ 
 
 @media screen and (min-width: 991px)
 {
- .recipe-section{display:flex;}
+ .recipe-section{display:flex;
+}
  
- .info-card{height:100%;}
+ .info-card{height:auto;}
+ .disappear, .disappear1{display:inline;}
 
  ul{display:flex;
 flex-direction: column;
 }
 li{line-height:2rem;}
 .video-card{max-width:65%;}
+
+.social{border-radius:25px;}
+
+a span{color:black;
+font-size:1rem;
+font-family: Montserrat, 'Helvetica Neue', sans-serif;}
+
+.ad-banner{width:100%;}
+
+.presentation img{height:300px;
+    width:auto;
+float:left;
 }
+.presentation-text{margin-left:10px;}
+
+.footer{flex-direction:row;
+justify-content: space-between;}
+    
+}
+

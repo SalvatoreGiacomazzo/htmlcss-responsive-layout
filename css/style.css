@@ -26,11 +26,11 @@ justify-content: space-between;
 align-items: center;
 }
 
-.recipe-container{height:100vh;
-border:dashed;}
+.recipe-container{height:auto;
+}
 
 .recipe-section{height:auto;
-border:dashed;}
+}
 
 .video-card{height:300px;
 width:100%;}
@@ -38,7 +38,7 @@ width:100%;}
 .video-card iframe{height:100%;
 width:100%;}
 
-.info-card{border: dashed;
+.info-card{
 height:50%;
 width:auto;}
 
@@ -58,6 +58,52 @@ ul{list-style-type: none;
 margin:20px 5px;
 font-size: 0.9rem;}
 
+/*Social Network*/ 
+.social-links{margin-top:60px;
+margin-bottom:60px;
+display:flex;
+justify-content:space-around;}
+
+.social{background-color: white;
+padding: 10px;
+border-radius:70%;}
+
+/*AD Banner*/ 
+
+.ad-banner{max-width:100%;
+max-height:80px;
+margin-top: 60px;}
+
+.ad-banner img{height:auto;
+max-width:100%;}
+
+/*Presentation*/ 
+
+.presentation{margin-top:60px;}
+
+.tiramisu-img{max-width: 100%;
+height:auto;
+text-align: center;
+margin:20px;}
+
+.presentation img{height:150px;
+width:auto;}
+
+.presentation p{margin-bottom:50px;}
+
+/*footer*/
+footer{height: 100px;
+    width:100%;
+background-color: cornflowerblue;
+color:white;
+display:flex;
+flex-direction: column;
+justify-content: center;
+align-items: center;
+font-size: 0.8rem;}
+
+footer a{text-decoration: none;
+color:white;}
 
 
 
@@ -70,7 +116,8 @@ color:rgb(95, 95, 95);
 display:block;
 }
 
-.disappear{visibility: hidden;}
+.disappear{display:none;}
+.disappear1{display:none;}
 
 .rate{color:white;
 background-color:orange;
@@ -84,3 +131,9 @@ padding:5px 8px;}
 .plus-info{ color:orange;}
 
 li .fa-solid{color:orange;}
+
+.facebook{color:blue;}
+.youtube, .pinterest{color:red;}
+.twitter{color:rgb(24, 170, 218)}
+.instagram{color: deeppink;}
+
