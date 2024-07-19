@@ -1,30 +1,28 @@
 /*Tablet section*/ 
-@media screen and (min-width:768px){
-    header{text-align: left;
-    padding-left:5px;}
-   .recipe-name .disappear{visibility: visible;}
-   .recipe-name{display: flex;
-  justify-content: space-between;}
+@media screen and (min-width:767px)
+ {
+ header{text-align: left; 
+}   
+header h1{margin-left:5px;}
 
-    main{margin:5px 15px;}
+.disappear{visibility: visible;}
+ }
 
-    ul{display:flex;
-    justify-content: space-around;
-     flex-wrap:wrap;
-    align-items: center;
-    font-size:18px;}
-    
-    .advertising-banner{max-width:100%;
-    visibility: visible;}
-   
-    .advertising-banner img{max-width: 100%;}
-
-    .social{padding: 10px 35px;}
-    
-    .presentation img{float:left;}
- 
+ ul{display:flex;
 }
+
 
 /*Desktop section*/ 
 
+@media screen and (min-width: 991px)
+{
+ .recipe-section{display:flex;}
+ 
+ .info-card{height:100%;}
 
+ ul{display:flex;
+flex-direction: column;
+}
+li{line-height:2rem;}
+.video-card{max-width:65%;}
+}

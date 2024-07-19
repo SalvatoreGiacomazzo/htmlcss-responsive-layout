@@ -3,9 +3,10 @@ padding:0;
 box-sizing: border-box;}
 
 body{font-family: Montserrat, 'Helvetica Neue', sans-serif;
-background-color: rgb(170, 162, 162);
+background-color: rgb(223, 223, 223);
 }
 
+main{margin:0px 10px;}
 
 /*Header*/ 
 header{height:60px;
@@ -17,4 +18,69 @@ font-family: 'Nerko One', cursive;
 padding-top:5px;
 }
 
+/*Recipe section*/
 
+.recipe-header{height:80px;
+display:flex;
+justify-content: space-between;
+align-items: center;
+}
+
+.recipe-container{height:100vh;
+border:dashed;}
+
+.recipe-section{height:auto;
+border:dashed;}
+
+.video-card{height:300px;
+width:100%;}
+
+.video-card iframe{height:100%;
+width:100%;}
+
+.info-card{border: dashed;
+height:50%;
+width:auto;}
+
+.info-well{height:100px;
+width:auto;
+margin: 10px 15px;
+background-color: rgb(143, 143, 143);
+}
+
+.upper-well{display:flex;
+    height:50%;
+justify-content: space-between;
+align-items:center;}
+.lower-well{height:50%}
+
+ul{list-style-type: none;
+margin:20px 5px;
+font-size: 0.9rem;}
+
+
+
+
+
+/*utilities*/ 
+.orange{color:orange;}
+
+.header-title{font-size:1rem;
+color:rgb(95, 95, 95);
+display:block;
+}
+
+.disappear{visibility: hidden;}
+
+.rate{color:white;
+background-color:orange;
+padding: 5px 10px;
+border-radius:20px;}
+
+.kcal{color:white;
+background-color: cadetblue;
+padding:5px 8px;}
+
+.plus-info{ color:orange;}
+
+li .fa-solid{color:orange;}
